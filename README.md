@@ -11,7 +11,7 @@ A solver for an NP-hard network optimization problem: given a map of cities and 
 
 Full technical spec is provided as a PDF.
 
-This implementation ranked in the top 20 out of all submissions in CS 170 @ UC Berkeley (Spring 2020), completed as a solo project.
+This implementation ranked in the top 20 (based on how well the solver outputs approximate the true solutions) out of all submissions in CS 170 @ UC Berkeley (Spring 2020), completed as a solo project.
 
 ## Algorithm
 
@@ -81,3 +81,4 @@ This will process all `.in` files in the `inputs/` directory and write solutions
 - First line: space-separated list of vertices in the tree
 
 - Following lines: space-separated "u v" pairs defining tree edges
+
