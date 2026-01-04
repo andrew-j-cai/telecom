@@ -9,7 +9,9 @@ A solver for an NP-hard network optimization problem: given a map of cities and 
 - The fiber network must form a tree (no redundant cables)
 - Goal: minimize the average communication distance between all towers
 
-This implementation ranked in the **top 20** out of all submissions in CS 170 (Spring 2020), completed as a solo project.
+Full technical spec is provided as a PDF.
+
+This implementation ranked in the top 20 out of all submissions in CS 170 @ UC Berkeley (Spring 2020), completed as a solo project.
 
 ## Algorithm
 
@@ -77,4 +79,5 @@ This will process all `.in` files in the `inputs/` directory and write solutions
 
 **Output:** Each `.out` file specifies a dominating tree:
 - First line: space-separated list of vertices in the tree
+
 - Following lines: space-separated "u v" pairs defining tree edges
